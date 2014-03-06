@@ -1,0 +1,71 @@
+body{
+	/*background-color: black;*/
+	/*keyword*/
+	/*background-color: red; */
+
+	/*hexadecimal*/
+	/*background-color: #FF0000;*/
+
+	/*rgb*/
+	/*background-color: rgb(255, 0, 0);*/
+
+	/*rgba*/
+	/*background-color: rgb(255, 0, 0, 1);*/
+
+	/*hue saturation lightness*/
+	/*background-color: hsl(90, 100%, 50%);*/
+
+	/*hue saturation lightness alpha*/
+	/*background-color: hsl(90, 100%, 50%, 1);*/
+}
+
+
+/*.color1{
+	background-color: hsl(0, 100%, 50%);
+}
+
+.color2{
+	background-color: hsl(10, 100%, 50%);
+}
+
+.color3{
+	background-color: hsl(20, 100%, 50%);
+}
+
+.color4{
+	background-color: hsl(30, 100%, 50%);
+}
+
+.color5{
+	background-color: hsl(40, 100%, 50%);
+}*/
+
+
+.color1{
+	background-color: hsla(0, 100%, 50%, 1);
+}
+
+.color2{
+	background-color: hsla(0, 100%, 50%, 0.8);
+}
+
+.color3{
+	background-color: hsla(0, 100%, 50%, 0.6);
+}
+
+.color4{
+	background-color: hsla(0, 100%, 50%, 0.4);
+}
+
+.color5{
+	background-color: hsla(0, 100%, 50%, 0.2);
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+/* selector{ atributo: valor;} */
+
+body{
+	background-color: #111;
+	font-family: "Georgia";
+	color: #999;
+}
+
+a{
+	color: white;
+}

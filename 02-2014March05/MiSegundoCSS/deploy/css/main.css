@@ -1,0 +1,88 @@
+/* selector{ atributo: valor;} */
+
+
+
+body{
+	background-color: #eee;
+	font-family: "Georgia";
+}
+
+header, nav, section, footer{
+	width: 960px;
+	margin: 0 auto;	
+}
+
+header{
+	text-align: center;
+}
+
+h1, h2{
+	font-family: 'Allerta Stencil', sans-serif;
+}
+
+header h1{
+	font-size: 44px;
+	margin-bottom: 5px;
+}
+
+header h2{
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 0;
+}
+
+#main-nav{
+	border-top: 1px solid #111;
+	border-bottom: 1px solid #111;
+	margin-top: 20px;
+}
+
+	#main-nav ul{
+		padding:0;
+		text-align: center;
+	}
+
+		#main-nav ul li{
+			display: inline-block;
+		}
+
+			#main-nav ul li a{
+				font-family: "Helvetica", sans-serif;
+				text-decoration: none;
+				text-transform: uppercase;
+				color: #111;
+				font-size: 14px;
+				font-weight: bold;
+				margin: 0 15px;
+			}
+
+			#main-nav ul li a:hover{
+				text-decoration: underline;
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

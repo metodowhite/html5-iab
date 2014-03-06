@@ -1,0 +1,60 @@
+body{
+	margin: 0;
+}
+
+section{
+	/*display: block;*/
+	/*display: inline;*/
+	display: inline-block;
+}
+
+ul{
+	padding: 0;
+}
+
+li{
+	display: inline-block;
+}
+
+a{
+	color: black;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: "Helvetica", "Arial";
+	font-weight: bold;
+	padding: 5px 10px 30px 100px; /* top, right, bottom, left *//* [top bottom], [right left] */
+	border: 2px dotted black;
+}
+
+a:hover{
+	text-decoration: underline;
+	border: 2px solid red;
+}
+
+strong{
+	font-size: 36px;
+	font-family: "Helvetica", "Arial";
+}
+
+.cuadrado{
+	width: 200px;
+	height: 200px;
+}
+
+.cuadrado:hover{
+	width: 250px;
+	height: 250px;
+	cursor: pointer;
+}
+
+.rojo{
+	background-color: red;
+}
+
+.rojo strong{
+	color: white;
+}
+
+.verde{
+	background-color: green;
+}
