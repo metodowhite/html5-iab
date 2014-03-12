@@ -1,0 +1,40 @@
+#scene{
+	height: 768px;
+	width: 1024px;
+
+	-webkit-perspective: 1300;
+	-moz-perspective: 1300;
+	-ms-perspective: 1300;
+	perspective: 1300;
+}
+
+img{
+	transition: all 1s;
+	transform-style: preseve-3d;
+	backface-visibility: hidden;
+}
+
+img:hover{
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+}
+
+article{
+	width: 400px;
+	height: 400px;
+	background-color: gray;
+	position: absolute;
+	transition: all 1s;
+}
+
+article:hover{
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
